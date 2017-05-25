@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ângela Tavares</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Icon da barra de separadores-->
+    <link rel="icon" href="img/favicon.ico" type="icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Invoca a estilização em css-->
+    <link rel="stylesheet" href="estilização.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div class="container">
+
+        <!-- Modal -->
+        <br>
+        <div class="modal fade" id="enviar" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <center>
+                            <h4>Mensagem Enviada com Sucesso!</h4></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Construção da Página com base em grelhas estando cada parâmetro dividido por linhas-->
+
+        <!--Primeira Linha-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!--TÍTULO DA PÁGINA-->
+                <!--Primeira Secção - Cabeçalho-->
+                <section class="clearfix">
+                    <h1 id="top">
+                    Ângela Tavares
+			    </h1>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!--Segunda Secção - Corpo-->
+    <section>
+        <!--Segunda Linha-->
+        <!--BARRA DE NAVEGAÇÃO-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <!--O affix permite fixar a navbar ao topo da página ao fazer scroll-->
+                <nav class="navbar navbar-default navbar-inverse" data-spy="affix" data-offset-top="197">
+                    <div class="container-fluid">
+                        <!--Fluid para a informação da barra começar encostada e não ter espaçamento no lado esquerdo-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#top"><img src="img/favicon%20(2).ico" alt=""></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#sobre">Sobre Mim</a></li>
+                                <li><a href="#viagens">Viagens</a></li>
+                                <li><a href="#contactos">Contactos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <!--Terceira Linha-->
+            <!--CAROUSEL-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/14618769_10205861101921617_770446964_o.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img src="img/IMG_0663.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img src="img/14191388_196352700782477_966390963_o.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img src="img/IMG_20160731_154814.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img src="img/197737_343163872420047_356830811_n.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img src="img/1374078_569787263068775_1313717001_n.jpg" alt="Imagem não encontrada!">
+                                <div class="carousel-caption"></div>
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Quarta Linha-->
+            <!--SOBRE MIM-->
+            <div class="row" id="sobre">
+                <br>
+                <h3 class="page-header">Sobre Mim</h3>
+                <!--Primeira coluna-->
+                <center>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <br>
+                        <img alt="Imagem de apresentação" src="img/14599905_130421644088746_1930390306_o.jpg" class="img-thumbnail" />
+                    </div>
+                </center>
+                <!--Segunda coluna-->
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                    <p class="text-justify">
+                        <br> Nasci no Porto num solarengo dia de setembro, corria o ano de 1997. Época do Michael Jackson, Spice
+                        Girl, Mariah Carey, e do grandíssimo Leonardo DiCaprio! Cresci com as correrias da aldeia, atrás
+                        dos animais e na conquista de novos amigos, com os Morangos com Açúcar com a Bravo,com os Roxette,
+                        com o Justin Bieber, com os Linkin Park, com a ferve do Hip-hop, com tudo que era considerado estonteante
+                        para a época. Saudades!
+                        <br> Quando dei por mim percebi que tinha de escolher alguma coisa para seguir, a tecnologia pareceu-me
+                        assim uma coisa interessante. Lá fui eu para Tecnologias e Sistemas de Informação para a Web, na
+                        Escola Superior de Media Artes e Design, cheia de sonhos e ambições. Atualmente a frequentar o primeiro
+                        semestre do segundo ano.
+                    </p>
+                    <br>
+
+                    <div>
+                        <button id="btn_collapse" type="button" class="btn btn-md btn-default collapsed" data-toggle="collapse" data-target="#demo">Curiosidades</button>
+                    </div>
+
+                    <div id="demo" class="collapse">
+                        <p class="text-justify">
+                            <br> Organizadora de eventos, atividades extracurriculares e festas pela associação de estudantes
+                            do secundário, colecionadora de certificados, diplomas e medalhas desde pequenina na modalidade
+                            natação e outras, delegada de turma durante o meu fantástico décimo segundo ano, escuteiras ao
+                            longo de cinco anos passando por Exploradora e Pioneira e adquirindo assim responsabilidade e
+                            a importância do trabalho em equipa.
+                            <br> Portista de ocasião, inventora de cozinha no que toca a elaborar pratos e a satisfazer a gula
+                            dos demais, dona de uma considerável coleção de livros, vernizes e sapatos, desportista diária
+                            (o voleibol e a natação são um vicio), pessoa que não diz que não a uma festa, a uma saída, ao
+                            chocolate, compras ou a novas experiências e sempre prontinha para se enfiar num avião, porque
+                            não há coisa melhor na vida do que conhecer novas culturas e adquirir outros conhecimentos. Fã
+                            da natureza que nunca dispensa de um bom dia quer de sol ou chuva apreciar a mesma acompanhada
+                            de uma chávena de chá e um bom livro. Amante de uma boa gargalhada, de bons amigos e momentos
+                            passados em família.
+                        </p>
+                    </div>
+
+                    <blockquote class="pull-right">
+                        <br>
+                        <p>Tenho em mim todos os sonhos do mundo.</p>
+                        <small><cite>Fernando Pessoa</cite></small>
+                    </blockquote>
+                </div>
+            </div>
+
+            <!--Quinta Linha-->
+            <!--VIAGENS-->
+            <div class="row" id="viagens">
+                <br>
+                <h3 class="page-header">Viagens</h3>
+                <!--Primeira Coluna-->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <br>
+                    <div class="thumbnail" href="https://www.londresparaprincipiantes.com/">
+                        <img alt="Bootstrap Thumbnail First" src="img/DSCF4177.jpg" />
+                        <div class="caption">
+                            <a href="https://www.londresparaprincipiantes.com/" target="_blank" style="color:black"><h4>Londres</h4></a>
+                            <p>Uma oportunidade de ter novas perspectivas de vida, fazer novos amigos num paíse diferente, conhecer
+                                uma nova cultura e alargar os horizontes. </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Segunda Coluna-->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <br>
+                    <div class="thumbnail">
+                        <img alt="Bootstrap Thumbnail Second" src="img/DSCF2896.jpg" />
+                        <div class="caption">
+                            <a href="http://br.france.fr/pt-br/a-descobrir/em-estrasburgo-0" target="_blank" style="color:black"><h4>Estrasburgo</h4></a>
+                            <p>Tenho satisfação em conhecer novas culturas e outras realidades em torno, como aconteceu nesta
+                                aventura "Parlamento Jovem"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Sexta linha-->
+            <!--FORMULÁRIO/LOCALIZAÇÃO-->
+            <div class="row" id="contactos">
+                <h3 class="page-header" id="h3C">Contactos</h3>
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                    <form>
+                        <!--NOME-->
+                        <div class="form-group">
+                            <label class="control-label col-sm-12" for="nome">Nome:</label>
+                            <div class="col-sm-12">
+                                <input type="nome" class="form-control" id="nome" placeholder="Ensira o seu Nome" required>
+                            </div>
+                        </div>
+                        <!--E-MAIL-->
+                        <div class="form-group">
+                            <label class="control-label col-sm-12" for="mail"><br>E-mail:</label>
+                            <div class="col-sm-12">
+                                <input type="nome" class="form-control" id="mail" placeholder="mail_example@hotmail.com" required>
+                            </div>
+                        </div>
+                        <!--TELEFONE-->
+                        <div class="form-group">
+                            <label class="control-label col-sm-12" for="page"><br>Página Pessoal:</label>
+                            <div class="col-sm-12">
+                                <input type="nome" class="form-control" id="page" placeholder="www.example_pagepessoal.com">
+                            </div>
+                        </div>
+                        <!--COMENTÁRIO-->
+                        <div class="form-group">
+                            <label class="control-label col-sm-12" for="page"><br>Comentário:</label>
+                            <div class="col-sm-12">
+                                <textarea type="nome" class="form-control" rows="4" id="page" placeholder="Descrição"></textarea>
+                            </div>
+                        </div>
+                        <!--BOTÃO-->
+                        <div class="form-group">
+                            <div class="col-sm-12"><br>
+                                <button type="submit" data-toggle="modal" data-target="#enviar" class="btn btn-success"><span class="glyphicon glyphicon-ok-sign" style="color:white;"></span> Enviar </button>
+                                <button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-trash" style="color:white;"></span> Apagar </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--Segunda Coluna-->
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                    <br>
+                    <center>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div id="map" class="embed-responsive-item" style="border: 1px solid black"></div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <!--Sétima linha-->
+            <!--VOLTAR AO TOPO-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <br>
+                    <center><a href="#top"> Voltar ao Inicio <span class="glyphicon glyphicon-arrow-up"></span></a></center>
+                    <br>
+                </div>
+            </div>
+
+            <!--FINAL DA PÁGINA-->
+            <footer class="container bg-4 text-center">
+                <br>
+                <a target="_blank" href="https://www.youtube.com/channel/UCGPLG3IXWe2Lcx0GzB5-TUw"><i class="fa fa-youtube" style="font-size:36px; color:white;"></i></a>
+                <a target="_blank" href="https://www.instagram.com/acacmt/"><i class="fa fa-instagram" style="font-size:36px; color:white"></i></a>
+                <p>
+                    <br>Informações de contacto: <a href="mailto:9150108@eseig.ipp.pt">9150108@eseig.ipp.pt</a></p>
+                <p>Criado por: Ângela Tavares</p>
+            </footer>
+
+        </div>
+    </section>
+
+    <!--Mapa-->
+    <script>
+        function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+        center: new google.maps.LatLng(41.216796, -8.414126),
+        zoom: 17
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+}
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+    <!--Scroll-->
+    <script>
+        $(document).ready(function(){
+    // Adicionar smooth scrolling a todos os links da navbar + o link do footer
+    $(".navbar a, a[href='#top']").on('click', function(event) {
+        // Garantir que o this.hash tem um valor antes de sobrepor o seu comportamento inicial
+        if (this.hash !== "") {
+            // Previne o comportamento do clique por omissão
+            event.preventDefault();
+            // Armazena hash
+            var hash = this.hash;
+            // Usar o método animate() do jQuery para adicionar uma rolagem suave
+            // O número (900) especifica o nº de milissegundos que a rolagem demora até chegar à área específica
+            $('html, body').animate({scrollTop: $(hash).offset().top}, 900, function(){
+                // Adiciona hash (#) à URL quando a rolagem termina (comportamento do clique por omissão)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+})
+
+    </script>
+
+</body>
+
+</html>
